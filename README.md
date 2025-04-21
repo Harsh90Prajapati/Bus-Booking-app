@@ -41,3 +41,25 @@ npm install
 
 # Start the development server
 npm run dev
+```
+---
+
+## 📁 Project Structure
+Bus-Booking-app/
+├── public/
+├── src/
+│   ├── components/          # Reusable UI components
+│   ├── features/
+│   │   ├── booking/         # Booking-related Redux slices and logic
+│   │   └── search/          # Search functionality and slices
+│   ├── pages/               # Route-specific pages (Home, Details, etc.)
+│   ├── App.jsx              # Root component
+│   └── main.jsx             # Entry point
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+---
+
+## Live Demo Link
+(https://bus-booking-app-harsh.vercel.app)
