@@ -1,4 +1,4 @@
-import SearchForm from "../components/searchForm";
+import SearchForm from "../components/Search";
 import Offer from "../components/Offer"
 import JourneyAssistance from "../components/Journey"
 import AppDownloadSection from "../components/AppDownload"

@@ -2,9 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import { FaSearch, FaExchangeAlt } from "react-icons/fa";
 import { saveToLocalStorage } from "../features/searchSlice";
-// // import axios from "axios";
-// import { useDispatch } from "react-redux";
-// import { fetchBuses } from "../features/searchSlice";
 
 export default function SearchForm() {
   const [from, setFrom] = useState("");
