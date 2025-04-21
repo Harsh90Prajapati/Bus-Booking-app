@@ -53,8 +53,9 @@ const BookingConfirmation = () => {
   const droppingAddress = busDetail?.droppingDetails?.[0]?.droppingAddress || "Dropping address not available";
 
   return (
-    <div className="h-fit">
-      <div className="w-full max-w-2xl mx-auto rounded-2xl shadow-md border p-4 my-10">
+    <div className="h-fit p-3 sm:p-0">
+       <h1 className="text-xl sm:text-2xl font-bold text-center mt-2 text-green-400 border-b">Your Booked Bus Ticket</h1>
+      <div className="w-full md:max-w-2xl md:mx-auto rounded-2xl shadow-md border p-4 my-10">
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <div className="text-left">

@@ -76,7 +76,7 @@ console.log(cityData?.find((ele)=>ele?.code===+busDetail?.fromCity)?.city,"seats
           <div className="grid grid-cols-10 gap-2 bg-gray-100 p-2 rounded">
             <GiSteeringWheel className="text-gray-600 text-sm sm:text-lg col-span-1" />
             {seats?.map((seat) => {
-        const isSelected = selectedSeats === seat.seatKey;
+        const isSelected = selectedSeats.includes(seat.seatKey);
         const isBooked = seat.booked;
 
         return (

@@ -58,7 +58,8 @@ const PaymentComponent = ({  busName, seats, }) => {
 
   
     return (
-        <div className="h-fit py-6">
+        <div className="h-fit py-6 px-2">
+          <h1 className="text-xl sm:text-2xl text-center font-semibold">Please Confirm Your Payment</h1>
         <div className="max-w-2xl mx-auto bg-white shadow-md rounded-xl overflow-hidden border my-10 ">
           {/* Journey Info */}
           <div className="p-4 border-b">
